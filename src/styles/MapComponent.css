@@ -1,0 +1,62 @@
+/* App.css */
+
+/* Navbar styling */
+.navbar {
+    background-color: #282c34;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+/* Controls section */
+.controls {
+    margin: 1rem;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.controls input {
+    padding: 0.5rem;
+    font-size: 1rem;
+}
+
+.set-coordinates-button {
+    padding: 0.5rem 1rem;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.set-coordinates-button:hover {
+    background-color: #0056b3;
+}
+
+/* Map container styling */
+.map-container {
+    height: 500px;
+    width: 100%;
+    margin-top: 1rem;
+}
+
+/* Find paths button */
+.find-paths-button {
+    margin: 1rem;
+    padding: 0.5rem 1rem;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.find-paths-button:hover {
+    background-color: #218838;
+}
+
+.find-paths-button:disabled {
+    background-color: #6c757d;
+    cursor: not-allowed;
+}
